@@ -2,18 +2,18 @@
 page_title                                : MeToDo                                        # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1603096711                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us, kr                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://apps.apple.com/app/me-todo-simple-to-do-list/id1603096711                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             :                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://github.com/Rsych/MeToDo                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : https://naolin.net/projects/snap-time/                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : MeToDo                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free • no ads or in-app purchases                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Easy, fast and free todo app.
+app_name                                  : SnapTime                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Silently capture your cherished moments with a personalized timestamp.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -40,9 +40,9 @@ features                                  :
   #  description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
   #  fontawesome_icon_name                 : play-circle
 
-  - title                                 : iCloud sync
-    description                           : Never fear to lose your data. It's secured in your own iCloud storage. Automatic sync with Apple login.
-    fontawesome_icon_name                 : sync
+  # - title                                 : iCloud sync
+  #   description                           : Never fear to lose your data. It's secured in your own iCloud storage. Automatic sync with Apple login.
+  #   fontawesome_icon_name                 : sync
 
   - title                                 : Dark mode support
     description                           : Designed and tested for dark mode. Try it yourself now!
@@ -64,13 +64,13 @@ features                                  :
   #  description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
   #  fontawesome_icon_name                 : info-circle
 
-  - title                                 : Easy todo management
-    description                           : When you're done. Just tap it.
-    fontawesome_icon_name                 : magic
+  # - title                                 : Easy todo management
+  #   description                           : When you're done. Just tap it.
+  #   fontawesome_icon_name                 : magic
 
-  - title                                 : Lock it, so only you can access
-    description                           : Support for biometrics or passcode authentication
-    fontawesome_icon_name                 : lock
+  # - title                                 : Lock it, so only you can access
+  #   description                           : Support for biometrics or passcode authentication
+  #   fontawesome_icon_name                 : lock
 
 
 
